@@ -1,0 +1,45 @@
+.header {
+  height: 100px;
+  background-color: #fbf0f4;
+}
+.header .logo {
+  height: 79px;
+  width: 79px;
+  cursor: pointer;
+}
+.header .header_btn {
+  padding: 14px 50px;
+  background: #d23166;
+  border-radius: 5px;
+  color: #fafafa;
+  border: none;
+  cursor: pointer;
+}
+.header .header_btn:hover {
+  background: #bb2456;
+}
+.header .navbar {
+  width: 443px;
+}
+.header .navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation .navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation .navbar ul li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #3e3c3c;
+}
+.navigation .navbar ul li a:hover {
+  color: #d23166;
+  font-weight: 700;
+}

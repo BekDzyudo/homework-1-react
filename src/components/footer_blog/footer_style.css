@@ -1,0 +1,146 @@
+.footer {
+  height: 381px;
+  background-color: black;
+  display: flex;
+}
+.footer .row-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 70px;
+}
+.footer .row-footer .column-one {
+  width: 207px;
+}
+.footer .row-footer .column-one .foot-logo {
+  width: 79px;
+  height: 79px;
+  margin-bottom: 9px;
+}
+.footer .row-footer .column-one .foot-logo img {
+  width: 100%;
+}
+.footer .row-footer .column-one p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  opacity: 0.7;
+  padding-bottom: 25px;
+}
+.footer .row-footer .column-one h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  padding-bottom: 8px;
+}
+.footer .row-footer .column-one .footer-icons {
+  display: flex;
+  column-gap: 10px;
+}
+.footer .row-footer .column-one .footer-icons a {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+/* column-two */
+
+.column-two ul li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.7;
+  padding-bottom: 10px;
+}
+.column-two ul li a:hover {
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+}
+
+/* column-three */
+
+.column-three ul li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.7;
+  padding-bottom: 10px;
+}
+.column-three ul li a:hover {
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+}
+
+/* column-four */
+
+.column-four {
+  width: 388px;
+  position: relative;
+}
+.column-four h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding-bottom: 13px;
+}
+.column-four form {
+  padding-bottom: 18px;
+  width: 388px;
+}
+.column-four form .email {
+  width: 100%;
+  height: 55px;
+  background-color: #000000;
+  padding-left: 20px;
+  border: 1px solid #d23166;
+  border-radius: 5px;
+  color: white;
+}
+.column-four form .foot-submit {
+  width: 125px;
+  height: 55px;
+  background: #d23166;
+  border-radius: 5px;
+  border: 1px solid #d23166;
+  position: absolute;
+  right: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.column-four form .email::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.column-four .footer-logos {
+  display: flex;
+  column-gap: 15px;
+}
